@@ -1,3 +1,4 @@
+//Not fixed
 import scala.io.Source
 val lines = Source.fromFile(args(0), "Shift-JIS").getLines.toList
 val row = lines.map(_.split(","))
